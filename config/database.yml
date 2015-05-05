@@ -1,17 +1,26 @@
 development:
   adapter: postgresql
-  encoding: unicode
+  encoding: SQL_ASCII
   database: ember-crm_development
   pool: 5
+  username: postgres
+  password: i8r6i2s1
+  host: localhost
 
 test:
   adapter: postgresql
-  encoding: unicode
+  encoding: SQL_ASCII
   database: ember-crm_test
   pool: 5
+  username: postgres
+  password: i8r6i2s1
+  host: localhost
 
 production:
   adapter: postgresql
-  encoding: unicode
+  encoding: SQL_ASCII
   database: ember-crm_production
   pool: 5
+  username: postgres
+  password: i8r6i2s1
+  host: localhost
